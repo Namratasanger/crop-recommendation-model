@@ -1,0 +1,11 @@
+The data file called Data_transformed_combined contains all the data we have used in training the model and the attributes in it are:
+State: string
+Crop: string
+District: string
+Year: integer (Here, the years were two combined in each row in the original data. It has been changed to have only the starting year.)
+Area (Hectare): Float
+Production (Tonnes): Float
+Yield (Tonnes/Hectare): Float
+
+
+The data has been cleaned up and made consistent in this dataset. But the extra data that is not used in training is still there.

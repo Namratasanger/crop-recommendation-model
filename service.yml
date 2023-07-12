@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: crop-recommendation-model-service
+  labels:
+    name: crop-recommendation-model-service
+spec:
+  ports:
+    - port: 8000
+      targetPort: 8000
+      protocol: TCP
+  selector:
+    app: crop-recommendation-model
+  type: NodePort

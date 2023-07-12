@@ -1,0 +1,2 @@
+So, for now the model will be pulled from this folder in the app and we will run it over and over again for each crop. 
+This model is saved in h5 format using keras.
